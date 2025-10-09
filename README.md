@@ -1,7 +1,7 @@
 
-  # Single-Page Portfolio Website
+  # VISHNUVARTJAN | SOFTWARE DEVELOPER
 
-  This is a code bundle for Single-Page Portfolio Website. The original project is available at https://www.figma.com/design/ppjTXjLDO3TMFHAeyf0PWW/Single-Page-Portfolio-Website.
+  This is a code bundle for VISHNUVARTJAN | SOFTWARE DEVELOPER. The original project is available at https://www.figma.com/design/ppjTXjLDO3TMFHAeyf0PWW/Single-Page-Portfolio-Website.
 
   ## Running the code
 
