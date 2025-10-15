@@ -72,7 +72,7 @@ export function HeroSection({ personalInfo }) {
       <div className="hero-image">
         <div className="hero-image-container">
           <img
-            src="https://images.unsplash.com/photo-1737575655055-e3967cbefd03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NTk4Njk0ODN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="src/assets/user.png"
             alt="Vishnuvarthan - Full Stack Developer"
           />
         </div>

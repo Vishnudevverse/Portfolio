@@ -127,6 +127,18 @@
       "imageUrl": "src/assets/figma.png"
     },
     {
+      "name": "Full Stack Web Development",
+      "category": "Domain Knowledge / Areas of Interest",
+      "link": "https://developer.mozilla.org/en-US/docs/Learn",
+      "imageUrl": "src/assets/fsd.png"
+    },
+    {
+      "name": "Mobile Application Development",
+      "category": "Domain Knowledge / Areas of Interest",
+      "link": "https://developer.android.com/develop",
+      "imageUrl": "src/assets/mad.png"
+    },
+    {
       "name": "Data Structures & Algorithms (DSA)",
       "category": "Technical Skills",
       "link": "https://www.geeksforgeeks.org/data-structures/",
@@ -149,18 +161,6 @@
       "category": "Technical Skills",
       "link": "https://www.indiabix.com/logical-reasoning/",
       "imageUrl": "src/assets/lr.png"
-    },
-    {
-      "name": "Full Stack Web Development",
-      "category": "Domain Knowledge / Areas of Interest",
-      "link": "https://developer.mozilla.org/en-US/docs/Learn",
-      "imageUrl": "src/assets/fsd.png"
-    },
-    {
-      "name": "Mobile Application Development",
-      "category": "Domain Knowledge / Areas of Interest",
-      "link": "https://developer.android.com/develop",
-      "imageUrl": "src/assets/mad.png"
     }
   ],
   "experienceData": [
