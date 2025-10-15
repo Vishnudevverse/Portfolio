@@ -70,12 +70,6 @@ function App() {
       )}
 
       <ContactSection personalInfo={portfolioData.personalInfo} />
-
-      <footer className="footer">
-        <div className="container">
-          <p>&copy; 2025 Vishnuvarthan. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }
