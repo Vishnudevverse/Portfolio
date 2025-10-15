@@ -72,7 +72,7 @@ export function HeroSection({ personalInfo }) {
       <div className="hero-image">
         <div className="hero-image-container">
           <img
-            src="src/assets/user.webp"
+            src="/images/user.webp"
             alt="Vishnuvarthan - Full Stack Developer"
           />
         </div>

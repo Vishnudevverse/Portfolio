@@ -16,151 +16,151 @@
       "name": "Python",
       "category": "Languages and Frameworks",
       "link": "https://www.python.org/",
-      "imageUrl": "src/assets/python.webp"
+      "imageUrl": "/images/python.webp"
     },
     {
       "name": "JavaScript (ES6+)",
       "category": "Languages and Frameworks",
       "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      "imageUrl": "src/assets/JavaScript (ES6+).webp"
+      "imageUrl": "/images/JavaScript (ES6+).webp"
     },
     {
       "name": "Java",
       "category": "Languages and Frameworks",
       "link": "https://docs.oracle.com/en/java/",
-      "imageUrl": "src/assets/java.webp"
+      "imageUrl": "/images/java.webp"
     },
     {
       "name": "C++",
       "category": "Languages and Frameworks",
       "link": "https://cplusplus.com/",
-      "imageUrl": "src/assets/c++.webp"
+      "imageUrl": "/images/c++.webp"
     },
     {
       "name": "C",
       "category": "Languages and Frameworks",
       "link": "https://en.cppreference.com/w/c",
-      "imageUrl": "src/assets/c.webp"
+      "imageUrl": "/images/c.webp"
     },
     {
       "name": "PHP",
       "category": "Languages and Frameworks",
       "link": "https://www.php.net/",
-      "imageUrl": "src/assets/php.webp"
+      "imageUrl": "/images/php.webp"
     },
     {
       "name": "React.js",
       "category": "Languages and Frameworks",
       "link": "https://react.dev/",
-      "imageUrl": "src/assets/reactjs.webp"
+      "imageUrl": "/images/reactjs.webp"
     },
     {
       "name": "React Native",
       "category": "Languages and Frameworks",
       "link": "https://reactnative.dev/",
-      "imageUrl": "src/assets/react.webp"
+      "imageUrl": "/images/react.webp"
     },
     {
       "name": "Flutter",
       "category": "Languages and Frameworks",
       "link": "https://flutter.dev/",
-      "imageUrl": "src/assets/flutter.webp"
+      "imageUrl": "/images/flutter.webp"
     },
     {
       "name": "HTML5",
       "category": "Tools and Technologies",
       "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-      "imageUrl": "src/assets/html5.webp"
+      "imageUrl": "/images/html5.webp"
     },
     {
       "name": "CSS3",
       "category": "Tools and Technologies",
       "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      "imageUrl": "src/assets/css3.webp"
+      "imageUrl": "/images/css3.webp"
     },
     {
       "name": "MySQL",
       "category": "Tools and Technologies",
       "link": "https://www.mysql.com/",
-      "imageUrl": "src/assets/mysql.webp"
+      "imageUrl": "/images/mysql.webp"
     },
     {
       "name": "phpMyAdmin",
       "category": "Tools and Technologies",
       "link": "https://www.phpmyadmin.net/",
-      "imageUrl": "src/assets/phpmyadmin.webp"
+      "imageUrl": "/images/phpmyadmin.webp"
     },
     {
       "name": "Git",
       "category": "Tools and Technologies",
       "link": "https://git-scm.com/",
-      "imageUrl": "src/assets/git.webp"
+      "imageUrl": "/images/git.webp"
     },
     {
       "name": "GitHub",
       "category": "Tools and Technologies",
       "link": "https://github.com/",
-      "imageUrl": "src/assets/github.webp"
+      "imageUrl": "/images/github.webp"
     },
     {
       "name": "VS Code",
       "category": "Tools and Technologies",
       "link": "https://code.visualstudio.com/",
-      "imageUrl": "src/assets/vs.webp"
+      "imageUrl": "/images/vs.webp"
     },
     {
       "name": "Google Search Console",
       "category": "Tools and Technologies",
       "link": "https://search.google.com/search-console/",
-      "imageUrl": "src/assets/gsc.webp"
+      "imageUrl": "/images/gsc.webp"
     },
     {
       "name": "Bing Webmaster Tools",
       "category": "Tools and Technologies",
       "link": "https://www.bing.com/webmasters/",
-      "imageUrl": "src/assets/bwm.webp"
+      "imageUrl": "/images/bwm.webp"
     },
     {
       "name": "Figma",
       "category": "Design and Simulation Tools",
       "link": "https://www.figma.com/",
-      "imageUrl": "src/assets/figma.webp"
+      "imageUrl": "/images/figma.webp"
     },
     {
       "name": "Full Stack Web Development",
       "category": "Domain Knowledge / Areas of Interest",
       "link": "https://developer.mozilla.org/en-US/docs/Learn",
-      "imageUrl": "src/assets/fsd.webp"
+      "imageUrl": "/images/fsd.webp"
     },
     {
       "name": "Mobile Application Development",
       "category": "Domain Knowledge / Areas of Interest",
       "link": "https://developer.android.com/develop",
-      "imageUrl": "src/assets/mad.webp"
+      "imageUrl": "/images/mad.webp"
     },
     {
       "name": "Data Structures & Algorithms (DSA)",
       "category": "Technical Skills",
       "link": "https://www.geeksforgeeks.org/data-structures/",
-      "imageUrl": "src/assets/dsa.webp"
+      "imageUrl": "/images/dsa.webp"
     },
     {
       "name": "Software Architecture",
       "category": "Technical Skills",
       "link": "https://martinfowler.com/architecture/",
-      "imageUrl": "src/assets/sa.webp"
+      "imageUrl": "/images/sa.webp"
     },
     {
       "name": "Problem Solving",
       "category": "Technical Skills",
       "link": "https://www.hackerrank.com/domains/algorithms",
-      "imageUrl": "src/assets/ps.webp"
+      "imageUrl": "/images/ps.webp"
     },
     {
       "name": "Logical Reasoning",
       "category": "Technical Skills",
       "link": "https://www.indiabix.com/logical-reasoning/",
-      "imageUrl": "src/assets/lr.webp"
+      "imageUrl": "/images/lr.webp"
     }
   ],
   "experienceData": [
