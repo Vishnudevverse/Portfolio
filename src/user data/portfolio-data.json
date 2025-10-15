@@ -5,9 +5,10 @@
     "email": "selvanvishnu73@gmail.com",
     "phone": "+91 8778172615",
     "location": "Tamil Nadu, India",
+    "location_link":"https://maps.app.goo.gl/SNmH59bcQWSBXA5XA",
     "linkedin": "https://www.linkedin.com/in/vishnuvarthan-software-developer/",
     "github": "https://github.com/Vishnudevverse/",
-    "resume": "https://drive.google.com/file/d/your-resume-id/view",
+    "resume": "https://drive.google.com/file/d/1AHwpkLK1BXYIUuFA2nyXNmvzxUMcGq1r/view?usp=drive_link",
     "about": "A dedicated and results-oriented Computer Science student at SRM University with a 9.81 CGPA. Passionate about building robust and scalable applications from the ground up. Experienced in the complete software development lifecycle, from designing and engineering full-stack websites to strengthening DSA proficiency through competitive programming."
   },
   "skillsData": [
@@ -15,157 +16,151 @@
       "name": "Python",
       "category": "Languages and Frameworks",
       "link": "https://www.python.org/",
-      "imageUrl": "https://images.unsplash.com/photo-1649180556628-9ba704115795?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxweXRob24lMjBwcm9ncmFtbWluZyUyMGxvZ298ZW58MXx8fHwxNzU5NzU0NDEzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/python.png"
     },
     {
       "name": "JavaScript (ES6+)",
       "category": "Languages and Frameworks",
       "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      "imageUrl": "https://images.unsplash.com/photo-1566837945700-30057527ade0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXZhc2NyaXB0JTIwY29kZSUyMGVkaXRvcnxlbnwxfHx8fDE3NTk2ODE5MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/JavaScript (ES6+).png"
     },
     {
       "name": "Java",
       "category": "Languages and Frameworks",
       "link": "https://docs.oracle.com/en/java/",
-      "imageUrl": "https://images.unsplash.com/photo-1664570000007-db164768644d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxqYXZhJTIwcHJvZ3JhbW1pbmclMjBjb2RlfGVufDF8fHx8MTc1OTcwMjQ3OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/java.png"
     },
     {
       "name": "C++",
       "category": "Languages and Frameworks",
       "link": "https://cplusplus.com/",
-      "imageUrl": "https://images.unsplash.com/photo-1625459201773-9b2386f53ca2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjJTJCJTJCJTIwcHJvZ3JhbW1pbmclMjBsYW5ndWFnZXxlbnwxfHx8fDE3NTk3NTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/c++.png"
     },
     {
       "name": "C",
       "category": "Languages and Frameworks",
       "link": "https://en.cppreference.com/w/c",
-      "imageUrl": "https://images.unsplash.com/photo-1625459201773-9b2386f53ca2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjJTJCJTJCJTIwcHJvZ3JhbW1pbmclMjBsYW5ndWFnZXxlbnwxfHx8fDE3NTk3NTQ0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/c.png"
     },
     {
       "name": "PHP",
       "category": "Languages and Frameworks",
       "link": "https://www.php.net/",
-      "imageUrl": "https://images.unsplash.com/photo-1556792189-55769c8dfbac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwaHAlMjBjb2RlJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzU5NzU0NDE1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/php.png"
     },
     {
       "name": "React.js",
       "category": "Languages and Frameworks",
       "link": "https://react.dev/",
-      "imageUrl": "https://images.unsplash.com/photo-1610986602726-19f650133f7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFjdCUyMGphdmFzY3JpcHQlMjBmcmFtZXdvcmt8ZW58MXx8fHwxNzU5NjgwMTEwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/reactjs.png"
     },
     {
       "name": "React Native",
       "category": "Languages and Frameworks",
       "link": "https://reactnative.dev/",
-      "imageUrl": "https://images.unsplash.com/photo-1610986602726-19f650133f7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFjdCUyMGphdmFzY3JpcHQlMjBmcmFtZXdvcmt8ZW58MXx8fHwxNzU5NjgwMTEwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/react.png"
     },
     {
       "name": "Flutter",
       "category": "Languages and Frameworks",
       "link": "https://flutter.dev/",
-      "imageUrl": "https://images.unsplash.com/photo-1644143155332-2ae7baf7d32f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmbHV0dGVyJTIwbW9iaWxlJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzU5NzU0NDE2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/flutter.png"
     },
     {
       "name": "HTML5",
       "category": "Tools and Technologies",
       "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
-      "imageUrl": "https://images.unsplash.com/photo-1576145790918-bdddd6d5ad21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxodG1sJTIwY3NzJTIwd2ViJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzU5NzU0NDE2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/html5.png"
     },
     {
       "name": "CSS3",
       "category": "Tools and Technologies",
       "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-      "imageUrl": "https://images.unsplash.com/photo-1576145790918-bdddd6d5ad21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxodG1sJTIwY3NzJTIwd2ViJTIwZGV2ZWxvcG1lbnR8ZW58MXx8fHwxNzU5NzU0NDE2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/css3.png"
     },
     {
       "name": "MySQL",
       "category": "Tools and Technologies",
       "link": "https://www.mysql.com/",
-      "imageUrl": "https://images.unsplash.com/photo-1662026911591-335639b11db6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxteXNxbCUyMGRhdGFiYXNlJTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NTk3NTQ0MTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/mysql.png"
     },
     {
       "name": "phpMyAdmin",
       "category": "Tools and Technologies",
       "link": "https://www.phpmyadmin.net/",
-      "imageUrl": "https://images.unsplash.com/photo-1662026911591-335639b11db6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxteXNxbCUyMGRhdGFiYXNlJTIwbWFuYWdlbWVudHxlbnwxfHx8fDE3NTk3NTQ0MTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/phpmyadmin.png"
     },
     {
       "name": "Git",
       "category": "Tools and Technologies",
       "link": "https://git-scm.com/",
-      "imageUrl": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnaXQlMjB2ZXJzaW9uJTIwY29udHJvbHxlbnwxfHx8fDE3NTk3NTQ0MTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/git.png"
     },
     {
       "name": "GitHub",
       "category": "Tools and Technologies",
       "link": "https://github.com/",
-      "imageUrl": "https://images.unsplash.com/photo-1566241440091-ec10de8db2e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnaXRodWIlMjBjb2RlJTIwcmVwb3NpdG9yeXxlbnwxfHx8fDE3NTk3NTQ0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/github.png"
     },
     {
       "name": "VS Code",
       "category": "Tools and Technologies",
       "link": "https://code.visualstudio.com/",
-      "imageUrl": "https://images.unsplash.com/photo-1625535163131-9d1fc30ea5f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aXN1YWwlMjBzdHVkaW8lMjBjb2RlJTIwZWRpdG9yfGVufDF8fHx8MTc1OTc1NDQxOHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/vs.png"
     },
     {
       "name": "Google Search Console",
       "category": "Tools and Technologies",
       "link": "https://search.google.com/search-console/",
-      "imageUrl": "https://images.unsplash.com/photo-1593437955835-fc8c51725430?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnb29nbGUlMjBzZWFyY2glMjBjb25zb2xlJTIwYW5hbHl0aWNzfGVufDF8fHx8MTc1OTc1NDQyMHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/gsc.png"
     },
     {
       "name": "Bing Webmaster Tools",
       "category": "Tools and Technologies",
       "link": "https://www.bing.com/webmasters/",
-      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MXx8fHwxNzU5NzU0NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/bwm.png"
     },
     {
       "name": "Figma",
       "category": "Design and Simulation Tools",
       "link": "https://www.figma.com/",
-      "imageUrl": "https://images.unsplash.com/photo-1653647054667-c99dc7f914ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaWdtYSUyMGRlc2lnbiUyMHRvb2x8ZW58MXx8fHwxNzU5NzU0NDE5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/figma.png"
     },
     {
       "name": "Data Structures & Algorithms (DSA)",
       "category": "Technical Skills",
       "link": "https://www.geeksforgeeks.org/data-structures/",
-      "imageUrl": "https://images.unsplash.com/photo-1664854953181-b12e6dda8b7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwc3RydWN0dXJlcyUyMGFsZ29yaXRobXN8ZW58MXx8fHwxNzU5NzM1ODExfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/dsa.png"
     },
     {
       "name": "Software Architecture",
       "category": "Technical Skills",
       "link": "https://martinfowler.com/architecture/",
-      "imageUrl": "https://images.unsplash.com/photo-1753715613388-7e03410b1dce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGFyY2hpdGVjdHVyZSUyMGRpYWdyYW18ZW58MXx8fHwxNzU5NzU0NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/sa.png"
     },
     {
       "name": "Problem Solving",
       "category": "Technical Skills",
       "link": "https://www.hackerrank.com/domains/algorithms",
-      "imageUrl": "https://images.unsplash.com/photo-1558717738-0b9fbb9b0b21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9ibGVtJTIwc29sdmluZyUyMGNvZGluZ3xlbnwxfHx8fDE3NTk3NTQ0MjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/ps.png"
     },
     {
       "name": "Logical Reasoning",
       "category": "Technical Skills",
       "link": "https://www.indiabix.com/logical-reasoning/",
-      "imageUrl": "https://images.unsplash.com/photo-1558717738-0b9fbb9b0b21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9ibGVtJTIwc29sdmluZyUyMGNvZGluZ3xlbnwxfHx8fDE3NTk3NTQ0MjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/lr.png"
     },
     {
       "name": "Full Stack Web Development",
       "category": "Domain Knowledge / Areas of Interest",
       "link": "https://developer.mozilla.org/en-US/docs/Learn",
-      "imageUrl": "https://images.unsplash.com/photo-1707758967860-19106a5e9ab7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmdWxsJTIwc3RhY2slMjB3ZWIlMjBkZXZlbG9wbWVudHxlbnwxfHx8fDE3NTk3MzYzMTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/fsd.png"
     },
     {
       "name": "Mobile Application Development",
       "category": "Domain Knowledge / Areas of Interest",
       "link": "https://developer.android.com/develop",
-      "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXZlbG9wbWVudHxlbnwxfHx8fDE3NTk2OTkwNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-    },
-    {
-      "name": "Software Development Life Cycle",
-      "category": "Domain Knowledge / Areas of Interest",
-      "link": "https://www.tutorialspoint.com/sdlc/index.htm",
-      "imageUrl": "https://images.unsplash.com/photo-1753715613388-7e03410b1dce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGFyY2hpdGVjdHVyZSUyMGRpYWdyYW18ZW58MXx8fHwxNzU5NzU0NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+      "imageUrl": "src/assets/mad.png"
     }
   ],
   "experienceData": [

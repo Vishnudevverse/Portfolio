@@ -53,7 +53,7 @@ export function ContactSection({ personalInfo }) {
       icon: MapPin,
       label: "Location",
       value: personalInfo.location,
-      href: null,
+      href: personalInfo.location_link || "#",
     },
   ];
 
