@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Google Search Console verification file
+google4cba5323f707a577.html
