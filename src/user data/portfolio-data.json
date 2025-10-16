@@ -5,7 +5,7 @@
     "email": "selvanvishnu73@gmail.com",
     "phone": "+91 8778172615",
     "location": "Tamil Nadu, India",
-    "location_link":"https://maps.app.goo.gl/SNmH59bcQWSBXA5XA",
+    "location_link": "https://maps.app.goo.gl/SNmH59bcQWSBXA5XA",
     "linkedin": "https://www.linkedin.com/in/vishnuvarthan-software-developer/",
     "github": "https://github.com/Vishnudevverse/",
     "resume": "https://drive.google.com/file/d/1AHwpkLK1BXYIUuFA2nyXNmvzxUMcGq1r/view?usp=drive_link",
@@ -19,46 +19,10 @@
       "imageUrl": "/images/python.webp"
     },
     {
-      "name": "JavaScript (ES6+)",
-      "category": "Languages and Frameworks",
-      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-      "imageUrl": "/images/JavaScript (ES6+).webp"
-    },
-    {
-      "name": "Java",
-      "category": "Languages and Frameworks",
-      "link": "https://docs.oracle.com/en/java/",
-      "imageUrl": "/images/java.webp"
-    },
-    {
-      "name": "C++",
-      "category": "Languages and Frameworks",
-      "link": "https://cplusplus.com/",
-      "imageUrl": "/images/c++.webp"
-    },
-    {
-      "name": "C",
-      "category": "Languages and Frameworks",
-      "link": "https://en.cppreference.com/w/c",
-      "imageUrl": "/images/c.webp"
-    },
-    {
       "name": "PHP",
       "category": "Languages and Frameworks",
       "link": "https://www.php.net/",
       "imageUrl": "/images/php.webp"
-    },
-    {
-      "name": "React.js",
-      "category": "Languages and Frameworks",
-      "link": "https://react.dev/",
-      "imageUrl": "/images/reactjs.webp"
-    },
-    {
-      "name": "React Native",
-      "category": "Languages and Frameworks",
-      "link": "https://reactnative.dev/",
-      "imageUrl": "/images/react.webp"
     },
     {
       "name": "Flutter",
@@ -89,6 +53,54 @@
       "category": "Tools and Technologies",
       "link": "https://www.phpmyadmin.net/",
       "imageUrl": "/images/phpmyadmin.webp"
+    },
+    {
+      "name": "React.js",
+      "category": "Languages and Frameworks",
+      "link": "https://react.dev/",
+      "imageUrl": "/images/reactjs.webp"
+    },
+    {
+      "name": "React Native",
+      "category": "Languages and Frameworks",
+      "link": "https://reactnative.dev/",
+      "imageUrl": "/images/react.webp"
+    },
+    {
+      "name": "Full Stack Web Development",
+      "category": "Domain Knowledge / Areas of Interest",
+      "link": "https://developer.mozilla.org/en-US/docs/Learn",
+      "imageUrl": "/images/fsd.webp"
+    },
+    {
+      "name": "Mobile Application Development",
+      "category": "Domain Knowledge / Areas of Interest",
+      "link": "https://developer.android.com/develop",
+      "imageUrl": "/images/mad.webp"
+    },
+    {
+      "name": "JavaScript (ES6+)",
+      "category": "Languages and Frameworks",
+      "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "imageUrl": "/images/JavaScript (ES6+).webp"
+    },
+    {
+      "name": "Java",
+      "category": "Languages and Frameworks",
+      "link": "https://docs.oracle.com/en/java/",
+      "imageUrl": "/images/java.webp"
+    },
+    {
+      "name": "C++",
+      "category": "Languages and Frameworks",
+      "link": "https://cplusplus.com/",
+      "imageUrl": "/images/c++.webp"
+    },
+    {
+      "name": "C",
+      "category": "Languages and Frameworks",
+      "link": "https://en.cppreference.com/w/c",
+      "imageUrl": "/images/c.webp"
     },
     {
       "name": "Git",
@@ -125,18 +137,6 @@
       "category": "Design and Simulation Tools",
       "link": "https://www.figma.com/",
       "imageUrl": "/images/figma.webp"
-    },
-    {
-      "name": "Full Stack Web Development",
-      "category": "Domain Knowledge / Areas of Interest",
-      "link": "https://developer.mozilla.org/en-US/docs/Learn",
-      "imageUrl": "/images/fsd.webp"
-    },
-    {
-      "name": "Mobile Application Development",
-      "category": "Domain Knowledge / Areas of Interest",
-      "link": "https://developer.android.com/develop",
-      "imageUrl": "/images/mad.webp"
     },
     {
       "name": "Data Structures & Algorithms (DSA)",
@@ -181,7 +181,12 @@
     {
       "title": "PROJECT 2D GAMES",
       "description": "Architected and developed a Python-based multi-game platform, designing a modular structure to integrate a Tkinter GUI with a MySQL backend for user authentication, score persistence, and launching four 2D games.",
-      "technologies": ["Python", "Tkinter", "MySQL", "GUI Development"]
+      "technologies": [
+        "Python",
+        "Tkinter",
+        "MySQL",
+        "GUI Development"
+      ]
     }
   ],
   "educationData": [
@@ -192,10 +197,22 @@
       "duration": "June 2023 - May 2027",
       "grade": "CGPA: 9.81",
       "semesterScores": [
-        { "semester": "Sem 1", "score": "9.77" },
-        { "semester": "Sem 2", "score": "10.0" },
-        { "semester": "Sem 3", "score": "9.83" },
-        { "semester": "Sem 4", "score": "9.65" }
+        {
+          "semester": "Sem 1",
+          "score": "9.77"
+        },
+        {
+          "semester": "Sem 2",
+          "score": "10.0"
+        },
+        {
+          "semester": "Sem 3",
+          "score": "9.83"
+        },
+        {
+          "semester": "Sem 4",
+          "score": "9.65"
+        }
       ]
     },
     {
