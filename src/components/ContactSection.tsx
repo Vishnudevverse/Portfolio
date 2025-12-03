@@ -1,4 +1,5 @@
-import { Mail, Phone, Linkedin, Github, MapPin, FileText } from "lucide-react";
+import { useState } from "react";
+import { Mail, Phone, Linkedin, Github, MapPin, FileText, Send } from "lucide-react";
 
 interface ContactSectionProps {
   personalInfo: {
@@ -14,6 +15,46 @@ interface ContactSectionProps {
 }
 
 export function ContactSection({ personalInfo }: ContactSectionProps) {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+  const [formStatus, setFormStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setFormStatus("sending");
+
+    // Simulate form submission (replace with actual API call)
+    try {
+      // For now, this will open the default email client with the form data
+      const mailtoLink = `mailto:${personalInfo.email}?subject=${encodeURIComponent(
+        formData.subject
+      )}&body=${encodeURIComponent(
+        `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+      )}`;
+      
+      window.location.href = mailtoLink;
+      
+      setTimeout(() => {
+        setFormStatus("success");
+        setFormData({ name: "", email: "", subject: "", message: "" });
+        setTimeout(() => setFormStatus("idle"), 3000);
+      }, 500);
+    } catch (error) {
+      setFormStatus("error");
+      setTimeout(() => setFormStatus("idle"), 3000);
+    }
+  };
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
   if (!personalInfo) {
     return (
       <section className="contact-section">
@@ -80,55 +121,132 @@ export function ContactSection({ personalInfo }: ContactSectionProps) {
         </p>
       </div>
 
-      <div className="contact-grid">
-        {contactItems.map((item, index) => {
-          const Icon = item.icon;
-          const isClickable = item.href && item.href !== "#";
+      <div className="contact-content-wrapper">
+        <div className="contact-details">
+          <div className="contact-grid">
+            {contactItems.map((item, index) => {
+              const Icon = item.icon;
+              const isClickable = item.href && item.href !== "#";
 
-          const ContactItem = isClickable ? 
-            <a key={index} href={item.href} className="contact-item">
-              <div className="contact-icon">
-                <Icon />
-              </div>
-              <div>
-                <div className="contact-label">{item.label}</div>
-                <div className="contact-value">{item.value}</div>
-              </div>
-            </a> :
-            <div key={index} className="contact-item">
-              <div className="contact-icon">
-                <Icon />
-              </div>
-              <div>
-                <div className="contact-label">{item.label}</div>
-                <div className="contact-value">{item.value}</div>
-              </div>
-            </div>;
+              const ContactItem = isClickable ? (
+                <a key={index} href={item.href} className="contact-item">
+                  <div className="contact-icon">
+                    <Icon />
+                  </div>
+                  <div>
+                    <div className="contact-label">{item.label}</div>
+                    <div className="contact-value">{item.value}</div>
+                  </div>
+                </a>
+              ) : (
+                <div key={index} className="contact-item">
+                  <div className="contact-icon">
+                    <Icon />
+                  </div>
+                  <div>
+                    <div className="contact-label">{item.label}</div>
+                    <div className="contact-value">{item.value}</div>
+                  </div>
+                </div>
+              );
 
-          return ContactItem;
-        })}
-      </div>
+              return ContactItem;
+            })}
+          </div>
+        </div>
 
-      <div className="contact-cta">
-        <h3>
-          <Mail size={20} />
-          Let's Connect
-        </h3>
-        <p>
-          Ready to start a conversation? Drop me a line
-          and let's discuss how we can work together.
-        </p>
-        
-        <div className="contact-buttons">
-          <a href={`mailto:${personalInfo.email}`} className="btn">
-            <Mail size={16} />
-            Send Email
-          </a>
+        <div className="contact-form-container">
+          <div className="form-header">
+            <h3>Send Me a Message</h3>
+            <p className="form-description">
+              Have a question or want to work together? Fill out the form below and I'll get back to you as soon as possible.
+            </p>
+          </div>
           
-          <a href={`tel:${personalInfo.phone}`} className="btn">
-            <Phone size={16} />
-            Call Me
-          </a>
+          <form className="contact-form" onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label htmlFor="name">Your Name *</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+                placeholder="John Doe"
+                disabled={formStatus === "sending"}
+              />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="email">Your Email *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+                placeholder="john@example.com"
+                disabled={formStatus === "sending"}
+              />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="subject">Subject *</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+                required
+                placeholder="Project Collaboration"
+                disabled={formStatus === "sending"}
+              />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="message">Message *</label>
+              <textarea
+                id="message"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                required
+                placeholder="Tell me about your project or inquiry..."
+                rows={6}
+                disabled={formStatus === "sending"}
+              />
+            </div>
+
+            <button 
+              type="submit" 
+              className="btn btn-submit"
+              disabled={formStatus === "sending"}
+            >
+              {formStatus === "sending" ? (
+                <>Sending...</>
+              ) : (
+                <>
+                  <Send size={16} />
+                  Send Message
+                </>
+              )}
+            </button>
+
+            {formStatus === "success" && (
+              <div className="form-message success">
+                Message sent successfully! I'll get back to you soon.
+              </div>
+            )}
+
+            {formStatus === "error" && (
+              <div className="form-message error">
+                Something went wrong. Please try again or email me directly.
+              </div>
+            )}
+          </form>
         </div>
       </div>
     </section>
