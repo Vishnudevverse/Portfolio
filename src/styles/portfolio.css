@@ -135,7 +135,7 @@ img {
 }
 
 .section-title:hover {
-  color: var(--accent-color);
+  color: var(--text-primary);
 }
 
 /* Hero Section */
@@ -166,7 +166,7 @@ img {
 }
 
 .hero-name:hover {
-  color: var(--accent-color);
+  color: var(--text-primary);
 }
 
 .hero-title {
@@ -232,11 +232,11 @@ img {
 }
 
 .btn:hover {
-  background: var(--accent-color);
-  color: var(--bg-primary);
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
   transform: translateY(-2px);
   box-shadow: 0 8px 16px var(--shadow-light);
-  border-color: var(--accent-hover);
+  border-color: var(--text-primary);
 }
 
 .btn:active {
@@ -335,7 +335,7 @@ img {
 }
 
 .skill-item:hover .skill-name {
-  color: var(--accent-color);
+  color: var(--text-primary);
   font-weight: 600;
 }
 
@@ -355,7 +355,7 @@ img {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 24px var(--shadow-light);
-  border-color: var(--accent-color);
+  border-color: var(--text-primary);
   border-width: 3px;
 }
 
@@ -370,7 +370,7 @@ img {
 }
 
 .card:hover .card-title {
-  color: var(--accent-color);
+  color: var(--text-primary);
 }
 
 .card-content {
@@ -400,6 +400,14 @@ img {
   flex-direction: column;
   gap: 0.5rem;
   margin-bottom: 1rem;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .experience-company {
@@ -470,12 +478,12 @@ img {
   font-size: 0.875rem;
   font-weight: 600;
   transition: all 0.2s ease;
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--border-color);
 }
 
 .tech-badge:hover {
-  background: var(--accent-hover);
-  border-color: var(--accent-hover);
+  background: var(--bg-card-hover);
+  border-color: var(--text-primary);
   transform: scale(1.08);
   box-shadow: 0 4px 8px var(--shadow-light);
 }
@@ -506,7 +514,7 @@ img {
 .education-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 24px var(--shadow-light);
-  border-color: var(--accent-color);
+  border-color: var(--text-primary);
   border-width: 3px;
 }
 
@@ -570,7 +578,7 @@ img {
 }
 
 .semester-score {
-  color: var(--accent-color);
+  color: var(--text-primary);
   font-weight: 600;
 }
 
@@ -600,7 +608,7 @@ img {
 .achievement-category:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 24px var(--shadow-light);
-  border-color: var(--accent-color);
+  border-color: var(--text-primary);
   border-width: 3px;
 }
 
@@ -624,7 +632,7 @@ img {
 }
 
 .achievement-title {
-  color: var(--accent-color);
+  color: var(--text-primary);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -692,7 +700,7 @@ img {
 .contact-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 24px var(--shadow-light);
-  border-color: var(--accent-color);
+  border-color: var(--text-primary);
   border-width: 3px;
   background: var(--bg-card-hover);
 }
@@ -700,7 +708,7 @@ img {
 .contact-icon {
   width: 60px;
   height: 60px;
-  background: rgba(0, 123, 255, 0.1);
+  background: var(--bg-card-hover);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -710,14 +718,14 @@ img {
 }
 
 .contact-item:hover .contact-icon {
-  background: rgba(0, 123, 255, 0.2);
+  background: var(--bg-secondary);
   transform: scale(1.1);
 }
 
 .contact-icon svg {
   width: 24px;
   height: 24px;
-  color: var(--accent-color);
+  color: var(--text-primary);
 }
 
 .contact-label {
@@ -744,7 +752,7 @@ img {
 .contact-cta:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 24px var(--shadow-light);
-  border-color: var(--accent-color);
+  border-color: var(--text-primary);
   border-width: 3px;
 }
 

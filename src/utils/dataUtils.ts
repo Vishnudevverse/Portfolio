@@ -45,6 +45,7 @@ export const portfolioData = {
       "company": "Hydrowaves",
       "duration": "June 2025 - July 2025",
       "location": "Chennai, India",
+      "githubUrl": "https://github.com/Vishnudevverse/Project-Hydrowaves",
       "description": [
         "Engineered and deployed a full-stack website independently, managing the entire project lifecycle from initial design to final hosting.",
         "Optimized on-page and technical SEO to achieve a 95+ performance score, leveraging tools like Google Search Console and Bing Webmaster Tools.",
@@ -62,7 +63,8 @@ export const portfolioData = {
         "Tkinter",
         "MySQL",
         "GUI Development"
-      ]
+      ],
+      "githubUrl": "https://github.com/Vishnudevverse/Project-2D-GAMES"
     }
   ],
   "educationData": [
