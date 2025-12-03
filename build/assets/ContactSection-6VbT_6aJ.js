@@ -1,4 +1,4 @@
-import{j as e}from"./index-CU2q9y6B.js";import{r as l,M as h,P as j,L as b,G as x,F as g,a as v,S as p}from"./icons-tuYA4Ezk.js";import"./react-vendor-14LZ4PUC.js";const S=l.memo(function({personalInfo:a}){const[t,o]=l.useState({name:"",email:"",subject:"",message:""}),[i,n]=l.useState("idle"),m=l.useCallback(async s=>{s.preventDefault(),n("sending");try{const c=`mailto:${a.email}?subject=${encodeURIComponent(t.subject)}&body=${encodeURIComponent(`Name: ${t.name}
+import{j as e}from"./index-D3nwFXmV.js";import{r as l,M as h,P as j,L as b,G as x,F as g,a as v,S as p}from"./icons-tuYA4Ezk.js";import"./react-vendor-14LZ4PUC.js";const S=l.memo(function({personalInfo:a}){const[t,o]=l.useState({name:"",email:"",subject:"",message:""}),[i,n]=l.useState("idle"),m=l.useCallback(async s=>{s.preventDefault(),n("sending");try{const c=`mailto:${a.email}?subject=${encodeURIComponent(t.subject)}&body=${encodeURIComponent(`Name: ${t.name}
 Email: ${t.email}
 
 Message:
