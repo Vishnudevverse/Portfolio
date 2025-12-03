@@ -1,0 +1,1 @@
+import{j as t}from"./index-CU2q9y6B.js";import{r as e}from"./icons-tuYA4Ezk.js";import"./react-vendor-14LZ4PUC.js";const n=e.memo(function({aboutText:o}){return t.jsxs("section",{className:"about-section",children:[t.jsx("h2",{className:"section-title",children:"About Me"}),t.jsx("p",{className:"about-text",children:o})]})});export{n as AboutSection};

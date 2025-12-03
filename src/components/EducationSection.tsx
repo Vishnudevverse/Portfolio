@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 interface SemesterScore {
   semester: string;
   score: string;
@@ -16,7 +18,7 @@ interface EducationSectionProps {
   educationData: Education[];
 }
 
-export function EducationSection({ educationData }: EducationSectionProps) {
+const EducationSection = memo(function EducationSection({ educationData }: EducationSectionProps) {
   return (
     <section className="education-section">
       <h2 className="section-title">Education & Academic Performance</h2>
@@ -53,4 +55,6 @@ export function EducationSection({ educationData }: EducationSectionProps) {
       </div>
     </section>
   );
-}
+});
+
+export { EducationSection };

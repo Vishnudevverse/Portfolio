@@ -1,4 +1,5 @@
 import { Github } from "lucide-react";
+import { memo } from "react";
 
 interface Experience {
   title: string;
@@ -13,7 +14,7 @@ interface ExperienceSectionProps {
   experienceData: Experience[];
 }
 
-export function ExperienceSection({ experienceData }: ExperienceSectionProps) {
+const ExperienceSection = memo(function ExperienceSection({ experienceData }: ExperienceSectionProps) {
   return (
     <section className="experience-section">
       <h2 className="section-title">Professional Experience</h2>
@@ -47,4 +48,6 @@ export function ExperienceSection({ experienceData }: ExperienceSectionProps) {
       </div>
     </section>
   );
-}
+});
+
+export { ExperienceSection };

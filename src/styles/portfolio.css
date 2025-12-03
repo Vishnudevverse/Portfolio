@@ -12,12 +12,12 @@
   --text-tertiary: #333333; /* Dark gray - 12.6:1 contrast */
   --border-color: #cccccc; /* Strong visible borders */
   --separator-color: #999999; /* Clear separators */
-  --accent-color: #0066cc; /* WCAG AAA blue - deuteranopia safe */
-  --accent-hover: #004499; /* Darker blue for hover - 8.6:1 contrast */
+  --accent-color: #333333; /* Dark grey for accents */
+  --accent-hover: #000000; /* Black for hover */
   --success-color: #007700; /* Green safe for protanopia/deuteranopia */
   --warning-color: #cc6600; /* Orange safe for tritanopia */
   --error-color: #cc0000; /* Red with pattern fallback */
-  --focus-ring: #0066cc; /* Clear focus indicator */
+  --focus-ring: #333333; /* Clear focus indicator */
   --shadow-light: rgba(0, 0, 0, 0.15); /* Visible shadows */
 }
 
@@ -33,12 +33,12 @@
     --text-tertiary: #cccccc; /* Light gray - 12.6:1 contrast */
     --border-color: #555555; /* Strong visible borders */
     --separator-color: #666666; /* Clear separators */
-    --accent-color: #66b3ff; /* Light blue - WCAG AAA on dark */
-    --accent-hover: #99ccff; /* Lighter blue hover - 13.5:1 contrast */
+    --accent-color: #cccccc; /* Light grey for accents on dark */
+    --accent-hover: #ffffff; /* White for hover on dark */
     --success-color: #00dd00; /* Bright green safe for all CVD types */
     --warning-color: #ffaa00; /* Bright orange safe for tritanopia */
     --error-color: #ff3333; /* Bright red with pattern fallback */
-    --focus-ring: #66b3ff; /* Clear focus indicator */
+    --focus-ring: #cccccc; /* Clear focus indicator */
     --shadow-light: rgba(255, 255, 255, 0.15); /* Visible shadows on dark */
   }
 }
@@ -201,7 +201,7 @@ img {
 
 .hero-image-container:hover {
   transform: scale(1.05);
-  box-shadow: 0 20px 40px rgba(0, 123, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .hero-image-container img {
@@ -284,7 +284,7 @@ img {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(120px, 100%), 1fr));
   gap: 2rem;
   margin-top: 1.5rem;
 }
@@ -471,8 +471,8 @@ img {
 }
 
 .tech-badge {
-  background: var(--accent-color);
-  color: var(--bg-primary);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
   padding: 0.4rem 1rem;
   border-radius: 1rem;
   font-size: 0.875rem;
@@ -482,7 +482,8 @@ img {
 }
 
 .tech-badge:hover {
-  background: var(--bg-card-hover);
+  background: var(--accent-color);
+  color: var(--bg-primary);
   border-color: var(--text-primary);
   transform: scale(1.08);
   box-shadow: 0 4px 8px var(--shadow-light);
@@ -497,7 +498,7 @@ img {
 
 .education-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
   gap: 2rem;
   margin-top: 1.5rem;
 }
@@ -591,7 +592,7 @@ img {
 
 .achievements-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
   gap: 2rem;
   margin-top: 1.5rem;
 }
@@ -679,7 +680,7 @@ img {
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
   gap: 2rem;
   margin-bottom: 2rem;
 }
@@ -872,7 +873,7 @@ img {
   font-size: clamp(0.95rem, 2vw, 1rem);
   font-family: inherit;
   transition: all 0.2s ease;
-  min-height: 44px; /* Touch-friendly minimum */
+  min-height: 44px;
   -webkit-appearance: none;
   appearance: none;
 }
@@ -883,7 +884,7 @@ img {
   border-color: var(--accent-color);
   border-width: 3px;
   background: var(--bg-card);
-  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .form-group input:disabled,
@@ -954,73 +955,6 @@ img {
     background: rgba(255, 51, 51, 0.15);
     color: var(--error-color);
   }
-}
-.contact-form-container {
-  background: var(--bg-card);
-  border-radius: 1rem;
-  padding: 2rem;
-  text-align: center;
-  border: 1px solid var(--border-color);
-  transition: all 0.3s ease;
-  max-width: 600px;
-  margin: 2rem auto 0;
-}
-
-.contact-form-container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 123, 255, 0.15);
-  border-color: var(--accent-color);
-}
-
-.contact-form-container h3 {
-  color: var(--text-primary);
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  text-align: left;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group label {
-  color: var(--text-secondary);
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
-
-.form-group input,
-.form-group textarea {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  border-radius: 0.5rem;
-  padding: 0.75rem;
-  color: var(--text-primary);
-  transition: all 0.3s ease;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  outline: none;
-  border-color: var(--accent-color);
-  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
-}
-
-.form-group textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
-.contact-form .btn {
-  margin-top: 1rem;
-  justify-content: center;
 }
 
 /* Footer */

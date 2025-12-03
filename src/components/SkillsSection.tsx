@@ -1,3 +1,5 @@
+import { memo, useCallback } from "react";
+
 interface Skill {
   name: string;
   category: string;
@@ -9,17 +11,17 @@ interface SkillsSectionProps {
   skillsData: Skill[];
 }
 
-export function SkillsSection({ skillsData }: SkillsSectionProps) {
-  const handleSkillClick = (link: string) => {
+const SkillsSection = memo(function SkillsSection({ skillsData }: SkillsSectionProps) {
+  const handleSkillClick = useCallback((link: string) => {
     window.open(link, '_blank', 'noopener,noreferrer');
-  };
+  }, []);
 
-  const handleKeyDown = (e: React.KeyboardEvent, link: string) => {
+  const handleKeyDown = useCallback((e: React.KeyboardEvent, link: string) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
       handleSkillClick(link);
     }
-  };
+  }, [handleSkillClick]);
 
   return (
     <section className="skills-section">
@@ -49,4 +51,6 @@ export function SkillsSection({ skillsData }: SkillsSectionProps) {
       </div>
     </section>
   );
-}
+});
+
+export { SkillsSection };

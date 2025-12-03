@@ -1,4 +1,5 @@
 import { ExternalLink, Github } from "lucide-react";
+import { memo } from "react";
 
 interface Project {
   title: string;
@@ -12,7 +13,7 @@ interface ProjectsSectionProps {
   projectsData: Project[];
 }
 
-export function ProjectsSection({ projectsData }: ProjectsSectionProps) {
+const ProjectsSection = memo(function ProjectsSection({ projectsData }: ProjectsSectionProps) {
   return (
     <section className="projects-section">
       <h2 className="section-title">Projects</h2>
@@ -51,4 +52,6 @@ export function ProjectsSection({ projectsData }: ProjectsSectionProps) {
       </div>
     </section>
   );
-}
+});
+
+export { ProjectsSection };

@@ -1,4 +1,5 @@
 import { Mail, Linkedin, Github, FileText } from "lucide-react";
+import { memo } from "react";
 
 interface HeroSectionProps {
   personalInfo: {
@@ -11,7 +12,7 @@ interface HeroSectionProps {
   };
 }
 
-export function HeroSection({ personalInfo }: HeroSectionProps) {
+const HeroSection = memo(function HeroSection({ personalInfo }: HeroSectionProps) {
   if (!personalInfo) {
     return (
       <section className="hero-section">
@@ -89,4 +90,6 @@ export function HeroSection({ personalInfo }: HeroSectionProps) {
       </div>
     </section>
   );
-}
+});
+
+export { HeroSection };

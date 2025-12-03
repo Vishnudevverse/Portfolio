@@ -1,5 +1,5 @@
 // Static portfolio data embedded to make the site fully static
-export const portfolioData = {
+export const portfolioData = Object.freeze({
   "personalInfo": {
     "name": "VISHNUVARTHAN",
     "title": "Full-Stack Developer & Computer Science Student",
@@ -104,7 +104,7 @@ export const portfolioData = {
     { "title": "CODEATHON", "organization": "SRM Institute of Science and Technology", "date": "September 2023", "description": "CODEATHON (4th Place Winner)" },
     { "title": "C Programming - Basic Level | SRMIST - IEEE - PURDUE EPICS Program", "date": "Nov 2023", "description": "Completed 100+ problem-solving challenges and 50 hours of intensive programming practice" }
   ]
-};
+});
 
 export const getPortfolioData = () => {
   return portfolioData;

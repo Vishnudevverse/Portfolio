@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, memo, useCallback } from "react";
 import { Mail, Phone, Linkedin, Github, MapPin, FileText, Send } from "lucide-react";
 
 interface ContactSectionProps {
@@ -14,7 +14,7 @@ interface ContactSectionProps {
   };
 }
 
-export function ContactSection({ personalInfo }: ContactSectionProps) {
+const ContactSection = memo(function ContactSection({ personalInfo }: ContactSectionProps) {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -23,7 +23,7 @@ export function ContactSection({ personalInfo }: ContactSectionProps) {
   });
   const [formStatus, setFormStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = useCallback(async (e: React.FormEvent) => {
     e.preventDefault();
     setFormStatus("sending");
 
@@ -47,14 +47,14 @@ export function ContactSection({ personalInfo }: ContactSectionProps) {
       setFormStatus("error");
       setTimeout(() => setFormStatus("idle"), 3000);
     }
-  };
+  }, [personalInfo.email]);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
+  const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData((prev) => ({
+      ...prev,
       [e.target.name]: e.target.value,
-    });
-  };
+    }));
+  }, []);
   if (!personalInfo) {
     return (
       <section className="contact-section">
@@ -251,4 +251,6 @@ export function ContactSection({ personalInfo }: ContactSectionProps) {
       </div>
     </section>
   );
-}
+});
+
+export { ContactSection };

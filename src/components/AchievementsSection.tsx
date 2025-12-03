@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 interface CompetitiveProgramming {
   title: string;
   items: string[];
@@ -15,7 +17,7 @@ interface AchievementsSectionProps {
   certificationsAwardsData: CertificationAward[];
 }
 
-export function AchievementsSection({ competitiveProgrammingData, certificationsAwardsData }: AchievementsSectionProps) {
+const AchievementsSection = memo(function AchievementsSection({ competitiveProgrammingData, certificationsAwardsData }: AchievementsSectionProps) {
   return (
     <section className="achievements-section">
       <h2 className="section-title">Achievements</h2>
@@ -59,4 +61,6 @@ export function AchievementsSection({ competitiveProgrammingData, certifications
       </div>
     </section>
   );
-}
+});
+
+export { AchievementsSection };
