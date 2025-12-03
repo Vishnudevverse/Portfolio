@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vishnudevverse.web.app/sitemap.xml

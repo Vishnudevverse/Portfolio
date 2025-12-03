@@ -21,41 +21,41 @@ export function AchievementsSection({ competitiveProgrammingData, certifications
       <h2 className="section-title">Achievements</h2>
       
       <div className="achievements-grid">
-        <div className="achievement-category">
+        <article className="achievement-category">
           <h3>Competitive Programming</h3>
           <div>
             {competitiveProgrammingData.map((achievement, index) => (
               <div key={index}>
                 {achievement.items.map((item, itemIndex) => (
                   <div key={itemIndex} className="achievement-item">
-                    <div className="achievement-title">{achievement.title}</div>
-                    <div className="achievement-desc">{item}</div>
+                    <h4 className="achievement-title">{achievement.title}</h4>
+                    <p className="achievement-desc">{item}</p>
                   </div>
                 ))}
               </div>
             ))}
           </div>
-        </div>
+        </article>
 
-        <div className="achievement-category">
+        <article className="achievement-category">
           <h3>Certifications & Awards</h3>
           <div>
             {certificationsAwardsData.map((cert, index) => (
               <div key={index} className="achievement-item">
-                <div className="achievement-title">{cert.title}</div>
+                <h4 className="achievement-title">{cert.title}</h4>
                 {cert.organization && (
-                  <div className="achievement-org">{cert.organization}</div>
+                  <p className="achievement-org">{cert.organization}</p>
                 )}
                 {cert.date && (
-                  <div className="achievement-date">{cert.date}</div>
+                  <p className="achievement-date">{cert.date}</p>
                 )}
                 {cert.description && (
-                  <div className="achievement-desc">{cert.description}</div>
+                  <p className="achievement-desc">{cert.description}</p>
                 )}
               </div>
             ))}
           </div>
-        </div>
+        </article>
       </div>
     </section>
   );

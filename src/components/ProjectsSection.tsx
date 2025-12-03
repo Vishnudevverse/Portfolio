@@ -19,7 +19,7 @@ export function ProjectsSection({ projectsData }: ProjectsSectionProps) {
       
       <div className="section">
         {projectsData.map((project, index) => (
-          <div key={index} className="card">
+          <article key={index} className="card">
             <div className="project-header">
               <h3 className="card-title">{project.title}</h3>
               <div className="project-buttons">
@@ -46,7 +46,7 @@ export function ProjectsSection({ projectsData }: ProjectsSectionProps) {
                 ))}
               </div>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>

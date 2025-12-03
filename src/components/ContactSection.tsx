@@ -133,20 +133,20 @@ export function ContactSection({ personalInfo }: ContactSectionProps) {
                   <div className="contact-icon">
                     <Icon />
                   </div>
-                  <div>
+                  <address>
                     <div className="contact-label">{item.label}</div>
                     <div className="contact-value">{item.value}</div>
-                  </div>
+                  </address>
                 </a>
               ) : (
                 <div key={index} className="contact-item">
                   <div className="contact-icon">
                     <Icon />
                   </div>
-                  <div>
+                  <address>
                     <div className="contact-label">{item.label}</div>
                     <div className="contact-value">{item.value}</div>
-                  </div>
+                  </address>
                 </div>
               );
 
