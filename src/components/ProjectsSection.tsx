@@ -1,7 +1,18 @@
-import React from "react";
 import { ExternalLink, Github } from "lucide-react";
 
-export function ProjectsSection({ projectsData }) {
+interface Project {
+  title: string;
+  description: string;
+  technologies: string[];
+  githubUrl?: string;
+  liveUrl?: string;
+}
+
+interface ProjectsSectionProps {
+  projectsData: Project[];
+}
+
+export function ProjectsSection({ projectsData }: ProjectsSectionProps) {
   return (
     <section className="projects-section">
       <h2 className="section-title">Projects</h2>

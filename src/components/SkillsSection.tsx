@@ -1,14 +1,23 @@
-import React from "react";
+interface Skill {
+  name: string;
+  category: string;
+  link: string;
+  imageUrl: string;
+}
 
-export function SkillsSection({ skillsData }) {
-  const handleSkillClick = (link, skillName) => {
+interface SkillsSectionProps {
+  skillsData: Skill[];
+}
+
+export function SkillsSection({ skillsData }: SkillsSectionProps) {
+  const handleSkillClick = (link: string) => {
     window.open(link, '_blank', 'noopener,noreferrer');
   };
 
-  const handleKeyDown = (e, link, skillName) => {
+  const handleKeyDown = (e: React.KeyboardEvent, link: string) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      handleSkillClick(link, skillName);
+      handleSkillClick(link);
     }
   };
 
@@ -20,11 +29,11 @@ export function SkillsSection({ skillsData }) {
         {skillsData.map((skill, index) => (
           <div 
             key={`${skill.name}-${index}`}
-            onClick={() => handleSkillClick(skill.link, skill.name)}
+            onClick={() => handleSkillClick(skill.link)}
             className="skill-item"
             role="button"
             tabIndex={0}
-            onKeyDown={(e) => handleKeyDown(e, skill.link, skill.name)}
+            onKeyDown={(e) => handleKeyDown(e, skill.link)}
             aria-label={`Learn more about ${skill.name}`}
           >
             <div className="skill-image">

@@ -1,6 +1,16 @@
-import React from "react";
+interface Experience {
+  title: string;
+  company: string;
+  duration: string;
+  location: string;
+  description: string[];
+}
 
-export function ExperienceSection({ experienceData }) {
+interface ExperienceSectionProps {
+  experienceData: Experience[];
+}
+
+export function ExperienceSection({ experienceData }: ExperienceSectionProps) {
   return (
     <section className="experience-section">
       <h2 className="section-title">Professional Experience</h2>

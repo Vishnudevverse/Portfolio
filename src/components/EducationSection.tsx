@@ -1,6 +1,22 @@
-import React from "react";
+interface SemesterScore {
+  semester: string;
+  score: string;
+}
 
-export function EducationSection({ educationData }) {
+interface Education {
+  degree: string;
+  field: string;
+  institution: string;
+  duration: string;
+  grade: string;
+  semesterScores?: SemesterScore[];
+}
+
+interface EducationSectionProps {
+  educationData: Education[];
+}
+
+export function EducationSection({ educationData }: EducationSectionProps) {
   return (
     <section className="education-section">
       <h2 className="section-title">Education & Academic Performance</h2>

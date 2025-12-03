@@ -1,7 +1,17 @@
-import React from "react";
 import { Mail, Linkedin, Github, FileText } from "lucide-react";
 
-export function HeroSection({ personalInfo }) {
+interface HeroSectionProps {
+  personalInfo: {
+    name: string;
+    title: string;
+    email: string;
+    linkedin?: string;
+    github?: string;
+    resume?: string;
+  };
+}
+
+export function HeroSection({ personalInfo }: HeroSectionProps) {
   if (!personalInfo) {
     return (
       <section className="hero-section">

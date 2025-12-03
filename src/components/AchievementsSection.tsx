@@ -1,6 +1,21 @@
-import React from "react";
+interface CompetitiveProgramming {
+  title: string;
+  items: string[];
+}
 
-export function AchievementsSection({ competitiveProgrammingData, certificationsAwardsData }) {
+interface CertificationAward {
+  title: string;
+  organization?: string;
+  date: string;
+  description: string;
+}
+
+interface AchievementsSectionProps {
+  competitiveProgrammingData: CompetitiveProgramming[];
+  certificationsAwardsData: CertificationAward[];
+}
+
+export function AchievementsSection({ competitiveProgrammingData, certificationsAwardsData }: AchievementsSectionProps) {
   return (
     <section className="achievements-section">
       <h2 className="section-title">Achievements</h2>

@@ -1,7 +1,19 @@
-import React from "react";
 import { Mail, Phone, Linkedin, Github, MapPin, FileText } from "lucide-react";
 
-export function ContactSection({ personalInfo }) {
+interface ContactSectionProps {
+  personalInfo: {
+    name: string;
+    email: string;
+    phone: string;
+    location: string;
+    location_link?: string;
+    linkedin?: string;
+    github?: string;
+    resume?: string;
+  };
+}
+
+export function ContactSection({ personalInfo }: ContactSectionProps) {
   if (!personalInfo) {
     return (
       <section className="contact-section">
